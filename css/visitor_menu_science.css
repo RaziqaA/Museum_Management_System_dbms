@@ -1,0 +1,65 @@
+@import "E:/xampp/htdocs/Museum/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+body{
+	padding: none;
+	margin: 0;
+	background-color: #efefef;
+	background: rgba(0,0,30,0.2);
+	background-size: cover;
+	background-position: fixed;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+
+h2{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: none;
+	font-size: 30px;
+	font-family: "Arial Black", cursive;
+	color: white;
+	background: rgba(0,0,0,0.5);
+}
+
+.welcome_block img{
+	width: 70%;
+	height: 80%;
+	background: rgba(0,0,0,0.7);
+}
+
+.welcome_block .general_desc{
+	padding: 10px;
+	background: rgba(0,0,0,0.7);
+	color: white;
+	font-size: 20px;
+}
+
+p{
+	padding: 4px;
+	background: rgba(0,0,0,0.7);
+	color: white;
+}
+
+h3{
+	padding: 10px;
+}
+
+.show_items{
+	padding: 5px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.show_items .item_block{
+	padding: 20px;
+	background: rgba(0,0,0,0.7);
+	color: white;
+}
+
+.show_items .item_block hr{
+	color: white;
+	width: inherit;
+}

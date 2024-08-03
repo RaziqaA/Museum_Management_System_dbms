@@ -1,0 +1,68 @@
+@import "E:/xampp/htdocs/Museum/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+body{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+h2{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: none;
+	padding: 10px;
+	margin: none;
+	font-family: "Arial Black", cursive;
+	font-variant: small-caps;
+	color: #fff;
+}
+
+.data_insert_box{
+	padding: 20px;
+	background: rgba(0,0,0,0.8);
+	width: 30%;
+	height: 67%;
+}
+
+.data_insert_box tr .textbox{
+	background: white;
+	text-decoration: none;
+	color: white;
+}
+
+.data_insert_box td{
+	padding: 5px;
+	color: white;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
+.data_insert_box td select{
+	border: none;
+	color: white;
+	background: rgba(0,0,0,0.7);
+	width: 170px;
+	height: 20px;
+}
+
+.data_insert_box td input{
+	background: rgba(0,0,0,0.7);
+	border: none;
+	height: 27px;
+	color: white;
+}
+
+.data_insert_box .btn{
+	width: 355px;
+	height: 30px;
+	border: 2px solid white;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
+.data_insert_box .btn:hover{
+	background-color: white;
+	color: black;
+}

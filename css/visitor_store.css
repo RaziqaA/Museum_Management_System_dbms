@@ -1,0 +1,65 @@
+@import "E:/xampp/htdocs/Museum/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+body{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+h1{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: none;
+	font-size: 30px;
+	font-family: "Arial Black", cursive;
+	color: white;
+	background: rgba(0,0,0,0.5);
+}
+
+ table{
+	position: relative;
+	padding: 20px;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	top: 10%;
+	height: 75%;
+	font-variant: small-caps;
+}
+
+ th{
+	background-color: maroon;
+	color: white;
+	font-style: cursive;
+	font-size: 22px;
+	font-family: "times new roman";
+}
+
+ td{
+	color: white;
+	font-size: 14px;
+	font-family: arial;
+	text-align: center;
+}
+
+.btn{
+	border: 2px solid white;
+	color: white;
+	width: 200px;
+	background: none;
+	padding: 5px;
+	font-family: Florence, cursive;
+	font-size: 18px;
+	font-style: bolder;
+	cursor: pointer;
+	margin: 12px 0;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: black;
+	box-shadow: 5px 5px 10px grey;
+}
+
+

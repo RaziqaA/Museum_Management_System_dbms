@@ -1,0 +1,68 @@
+@import "E:/xampp/htdocs/Museum/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+body{
+	font-family: sans-serif;
+	background-attachment: 100%;
+}
+
+h2{
+	color: white;
+}
+
+.menu_box{
+	margin: none;
+	padding: 0px;
+	background-color: #efefef;
+	z-index: -1;
+	overflow: hidden;
+	background: rgba(0,0,0,0.7);
+}
+
+.menu_box ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu_box ul li{
+	list-style: none;
+	float: left;
+	width: 30%;
+	height: 300px;
+	background: white;
+	margin: 40px 10px 0px 30px;
+	box-sizing: border-box;
+	border: none;
+	z-index: 2;
+	opacity: 1;
+	border-radius: 10px;
+}
+
+.menu_box ul li a{
+	text-decoration: none;
+}
+
+.menu_box ul li .title{
+	width: 100%;
+	height: 45px;
+	line-height: 50px;
+	background: white;
+	text-align: center;
+	opacity: 1;
+	border-radius: 10px;
+	font-weight: bold;
+	color: black;
+	font-variant: small-caps;
+}
+
+.menu_box ul li:hover{
+	background-color: white;
+	box-shadow: 5px 5px 10px 10px gray;
+}
+
+img {
+  border: none;
+  width: 100%;
+  height:250px;
+  padding: 0px;
+  border-radius: 10px;
+}

@@ -1,0 +1,82 @@
+@import "E:/xampp/htdocs/Museum/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+body{
+	padding: 10px;
+	margin: 0;
+	background-color: #efefef;
+	background:   url(E:/xampp/htdocs/Museum/images/jqp.jpg) no-repeat;
+	background-size: cover;
+	background-position: fixed;
+	font-family: sans-serif;
+	font-variant: small-caps;
+}
+
+h1{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: none;
+	font-size: 30px;
+	font-family: "Arial Black", cursive;
+	color: white;
+	background: rgba(0,0,0,0.5);
+}
+
+.menu_box{
+	width:95%;
+	position: absolute;
+	color: 2px solid white;
+	padding: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	top: 75%;
+	left: 50%;
+	margin: 0 auto 50px;
+	z-index: 1;
+	background: rgba(0,0,0,1);
+	opacity: 0.6;
+	transform: translate(-50%, -50%);
+	font-family: arial;
+	font-size: large;
+	font-style: bolder;
+	font-variant: small-caps;
+}
+
+nav ul{
+	margin: none;
+	padding: none;
+}
+
+nav ul li{
+	list-style: none;
+	float: left;
+	width: 20%;
+	height: 50px;
+	background:;
+	margin: 40px 10px 0px 30px;
+	box-sizing: border-box;
+	border: none;
+	z-index: 2;
+}
+
+nav .btn{
+	border: 2px solid white;
+	color: white;
+	width: 200px;
+	background: none;
+	padding: 5px;
+	font-family: Florence, cursive;
+	font-size: 18px;
+	font-style: bolder;
+	cursor: pointer;
+	margin: 12px 0;
+	font-variant:small-caps;
+}
+
+nav .btn:hover{
+	background-color: #fff;
+	color: black;
+	box-shadow: 5px 5px 10px grey;
+}
+

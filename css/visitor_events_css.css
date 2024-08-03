@@ -1,0 +1,83 @@
+@import "E:/xampp/htdocs/Museum/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+
+body{
+	padding: none;
+	margin: 0;
+	background: rgba(0,0,90,0.2);
+	background-size: cover;
+	background-position: fixed;
+	font-family: sans-serif;
+	z-index: 1;
+}     
+
+h2{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: none;
+	font-size: 30px;
+	font-family: "Arial Black", cursive;
+	color: white;
+	background: rgba(0,0,0,0.5);
+}
+
+.events_list{
+	width:99%;
+	height: 16%;
+	position:absolute;
+	color: white;
+	padding: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	top: 10%;
+	left: 50%;
+	z-index: 2;
+	background: rgba(0,0,0,0.5);
+	transform: translate(-50%, -50%);
+	font-family: arial;
+	font-size: large;
+	font-style: bolder;
+	font-variant: small-caps;
+}
+
+.events_list nav ul{
+	margin: none;
+	padding: none;
+}
+
+.events_list nav ul li{
+	list-style: none;	
+	width: 95%;
+	height: 50px;
+	background:;
+	margin: 100px 40px 0px;
+	box-sizing: border-box;
+	border: none;
+	z-index: 2;
+}
+
+.events_list nav ul li img{
+	float: left;
+	margin-right:  15px;
+	width: 230px;
+	height: 140px;
+	border: 2px solid white;
+}
+
+.show_items{
+	padding: 5px;
+	background: rgba(0,0,0,0.3);
+	color: white;
+}
+
+.show_items .item_block{
+	padding: 20px;
+	background: rgba(0,0,0,0.4);
+	color: white;
+}
+
+.show_items .item_block hr{
+	color: white;
+	width: inherit;
+}
